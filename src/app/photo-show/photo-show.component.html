@@ -1,0 +1,6 @@
+<div>
+  <button (click)="onClick()">Get New Photo</button>
+</div>
+<img *ngIf="photoUrl" [src]="photoUrl" [alt]="photoDescription" [title]="photoDescription">
+
+
